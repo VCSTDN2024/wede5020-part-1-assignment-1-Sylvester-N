@@ -38,7 +38,7 @@ and reduce plastic waste by 50 percent by 2027.
 
 **Objectives:**
 
--Plant 1 million trees by 2030 through community partnerships and reforestation programs. 
+- Plant 1 million trees by 2030 through community partnerships and reforestation programs. 
 - Reach 500 schools with climate awareness education in the next 5 years. 
 - Support 200 eco-friendly startups by 2028 with grants and mentorship. 
 - Reduce plastic waste by 50% by 2027 using recycling, clean-up campaigns, and community action.
@@ -122,16 +122,17 @@ Figure 7:Project Page
 
 # **Budget Estimate**
 
-Category	Estimated Cost
-Domain registration & hosting	R2,000 annually
-Website design & development	R40,000 one-time
-Content creation (text, photos)	R10,000
-Online donation system setup	R8,000
-SEO & Digital Marketing (6 months)	R15,000
-Accessibility compliance tools	R3,500
-Maintenance & updates (annual)	R6,000
-Staff training for content mgmt	R5,000
-Total	R89,500
+**Category & Estimated Cost**
+
+- Domain registration & hosting	R2,000 annually
+- Website design & development	R40,000 one-time
+- Content creation (text, photos)	R10,000
+- Online donation system setup	R8,000
+- SEO & Digital Marketing (6 months)	R15,000
+- Accessibility compliance tools	R3,500
+- Maintenance & updates (annual)	R6,000
+- Staff training for content mgmt	R5,000
+- Total	R89,500
 
 
 # **Conclusion**

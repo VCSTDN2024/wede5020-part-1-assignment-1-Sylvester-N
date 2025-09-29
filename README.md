@@ -1,6 +1,6 @@
-#Green Earth Alliance Website – README
+# Green Earth Alliance Website – README
 
-##Prososal 1 of 2
+## Prososal 1 of 2
 
 I find Green Earth Alliance better than HealthBridge Africa because its goals are more in tune with my passion for sustainability, technology, and community development. While HealthBridge Africa is also important in addressing healthcare inequalities all over Africa, Green Earth Alliance focuses on climate change, rejuvenation of biodiversity, and equipping local communities to live in a sustainable manner. This resonates with me because the environment affects every aspect of living, including health, and addressing them at the root helps in creating long-term solutions for future generations. Furthermore, Green Earth Alliance's previous experience in ecosystem restoration, tree planting, and educating schools about climate change reflects an initiative and anticipatory approach to universal challenges.
 
@@ -14,27 +14,27 @@ https://github.com/VCSTDN2024/wede5020-part-1-assignment-1-Sylvester-N.git
 *	Name: Green Earth Alliance
 *	Domain: www.greenearthalliance.org
   
-##History of the Organization
+## History of the Organization
 Green Earth Alliance (GEA) was founded in 2009 in Cape Town by environmental scientists, community activists, and educators who were passionate about tackling climate change and biodiversity loss. It started off as a small grassroots movement with tree planting and education campaigns, but over the years it has grown to support more than 150 projects across Africa and even work with international partners. The organization brings together thousands of volunteers every year to restore ecosystems and promote sustainability.
 
-##Overview
+## Overview
 
 Over the past years, GEA has planted more than 350,000 indigenous trees, restored degraded land, and reached 180 schools with climate awareness programs. They have also supported 75 green startups, empowering young entrepreneurs. Community-driven initiatives have already reduced plastic waste by 20 percent in partner areas.
 Looking forward, the organization is aiming to plant 1 million trees by 2030, bring climate education to 500 schools in the next 5 years, support 200 eco-startups by 2028, and reduce plastic waste by 50 percent by 2027.
 Goals and Objectives
 
-###Main Goals:
+### Main Goals:
 * Restore ecosystems through local, community-driven projects.
 *	Educate and empower people with sustainable practices.
 *	Advocate for policy change and corporate accountability.
-###Objectives:
+### Objectives:
 *	Plant 1 million trees by 2030 through community partnerships and reforestation programs.
 *	Reach 500 schools with climate awareness education in the next 5 years.
 *	Support 200 eco-friendly startups by 2028 with grants and mentorship.
 *	Reduce plastic waste by 50% by 2027 using recycling, clean-up campaigns, and community action.
 
 
-##Website Functionality
+## Website Functionality
 
 The Green Earth Alliance website is designed to be both informational and interactive.
 *	Home Page – Latest campaigns, success stories, and donation/volunteer links.
@@ -46,20 +46,20 @@ The Green Earth Alliance website is designed to be both informational and intera
 *	Contact Us – Contact forms, social links, office details, and FAQs.
 
   
-##Accessibility
+## Accessibility
 
 *	Multilingual support.
 *	Fully responsive design for smartphones and tablets.
 *	Accessibility-friendly with screen reader support, alt-text for images, and proper colour contrast.
 
-##Design and Development Process 
+## Design and Development Process 
 
-As a student building this website, I designed and structured it using HTML inside Visual Studio Code because it is simple and effective for creating web pages. The process started with creating a folder for the project and saving each webpage as an .html file. I used semantic HTML tags like <header>, <section>, <article>, and <footer> to keep the structure clean and easy to understand.
-The navigation bar was created with a table format <table>, <tr> and  <td> to make the menu easy to access. I also added images and gave them alt attributes for accessibility. To make sure the site is user-friendly on mobile, I applied the <meta name="viewport"> tag in the <head> section so it scales properly on smaller screens.
+As a student building this website, I designed and structured it using HTML inside Visual Studio Code because it is simple and effective for creating web pages. The process started with creating a folder for the project and saving each webpage as an .html file. I used semantic HTML tags like (header), (section), (article), and (footer) to keep the structure clean and easy to understand.
+The navigation bar was created with a table format (table), (tr) and  (td) to make the menu easy to access. I also added images and gave them alt attributes for accessibility. To make sure the site is user-friendly on mobile, I applied the (meta name="viewport") tag in the (head) section so it scales properly on smaller screens.
 Working in Visual Studio Code made the process smoother because of its extensions (Live Server), which allowed me to preview my work in real-time. I tested each page step by step, fixed any layout issues, and ensured that all the links between pages worked properly. Overall, the design process focused on simplicity, usability, and accessibility while sticking to the goals of Green Earth Alliance.
 
 
-##Logo Design
+## Logo Design
 The logo design of Green Earth Alliance reflects its mission of sustainability, community, and growth.
 
  
@@ -67,14 +67,14 @@ Figure 1:Logo
 
 This simple but meaningful logo design ensures that the identity of the organisation is clear: protecting the Earth through alliances and sustainability.
 
-##Sitemap
+## Sitemap
 Below is the structure of the Green Earth Alliance website:
 
  
 
 
 
-##Wireframe 
+## Wireframe 
 The wireframe shows the basic structure of each page before adding design and content. This helped me plan where elements like navigation, content, and footers go.
 
  
@@ -93,7 +93,7 @@ Figure 6:Enquiry Page
 Figure 7:Project Page
 
 
-##Budget Estimate
+## Budget Estimate
 
 Category	Estimated Cost
 Domain registration & hosting	R2,000 annually
@@ -106,7 +106,7 @@ Maintenance & updates (annual)	R6,000
 Staff training for content mgmt	R5,000
 Total	R89,500
 
-##Conclusion
+## Conclusion
 The Green Earth Alliance website was designed to be more than just an online presence it is a tool for education, community involvement, and environmental action. As a first-year Computer Science student, working on this project gave me valuable practice in building websites using HTML and understanding how design choices can impact accessibility and usability. The site reflects the mission of Green Earth Alliance by being simple, user-friendly, and inclusive, while also supporting key features like donations, volunteer registration, and project tracking. Overall, this project not only helped me grow my technical skills but also showed me how technology can be used to support meaningful causes like sustainability and climate action.
 
 
@@ -250,7 +250,7 @@ css
 
 
 
-##References
+## References
 *	Greenpeace International. (2023). Environmental Campaigning Best Practices. Retrieved from www.greenpeace.org 
 *	Worldwide Fund for Nature (WWF). (2024). Community Conservation Models. Retrieved from www.wwf.org 
 *	UNEP Africa Office. (2022). Sustainable Development in African Communities. United Nations Environment Programme.
@@ -261,7 +261,7 @@ css
 Figure 8:Declaration
 
 
-##Proposal 2 of 2
+## Proposal 2 of 2
 
 **Name of the Website**
 Organization Name: HealthBridge Africa
@@ -359,7 +359,7 @@ Total Estimated Budget	R105,000
 
 
 
-##References
+## References
 *	World Health Organization (WHO). (2023). Universal Health Coverage and Equity in Africa. Retrieved from www.who.int
 *	Doctors Without Borders (MSF). (2024). Mobile Clinics and Crisis Response. Available at www.msf.org 
 *	South African Department of Health. (2023). Community Health Strategy 2022–2027. Retrieved from www.health.gov.za 

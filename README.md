@@ -1,18 +1,16 @@
 # Green Earth Alliance Website – README
 
-## Prososal 1 of 2
-
-I find Green Earth Alliance better than HealthBridge Africa because its goals are more in tune with my passion for sustainability, technology, and community development. While HealthBridge Africa is also important in addressing healthcare inequalities all over Africa, Green Earth Alliance focuses on climate change, rejuvenation of biodiversity, and equipping local communities to live in a sustainable manner. This resonates with me because the environment affects every aspect of living, including health, and addressing them at the root helps in creating long-term solutions for future generations. Furthermore, Green Earth Alliance's previous experience in ecosystem restoration, tree planting, and educating schools about climate change reflects an initiative and anticipatory approach to universal challenges.
-
-Another reason I selected Green Earth Alliance is the innovation and youth empowerment potential it provides. The organization not only restores degraded land but also invests in green start-ups and reduces plastic waste with community action. This forward-thinking approach can offer both economic and environmental development and introduce lasting transformation through more than relief alone. HealthBridge Africa is more service-focused and is based on mobile clinics and direct provision of health. Even though that is extremely compelling, I was more drawn to the Green Earth Alliance's holistic vision of unifying education, advocacy, and sustainability to create a sustainable model of African communities. I believe that approaching a project with the Green Earth Alliance provides me with the potential to marry my computer science with meaningful environmental work.
-
-
-
 **Github Link:**
 https://github.com/VCSTDN2024/wede5020-part-1-assignment-1-Sylvester-N.git 
 **Website Name and Domain**
 *	Name: Green Earth Alliance
 *	Domain: www.greenearthalliance.org
+
+## Prososal 1 of 2
+
+I find Green Earth Alliance better than HealthBridge Africa because its goals are more in tune with my passion for sustainability, technology, and community development. While HealthBridge Africa is also important in addressing healthcare inequalities all over Africa, Green Earth Alliance focuses on climate change, rejuvenation of biodiversity, and equipping local communities to live in a sustainable manner. This resonates with me because the environment affects every aspect of living, including health, and addressing them at the root helps in creating long-term solutions for future generations. Furthermore, Green Earth Alliance's previous experience in ecosystem restoration, tree planting, and educating schools about climate change reflects an initiative and anticipatory approach to universal challenges.
+
+Another reason I selected Green Earth Alliance is the innovation and youth empowerment potential it provides. The organization not only restores degraded land but also invests in green start-ups and reduces plastic waste with community action. This forward-thinking approach can offer both economic and environmental development and introduce lasting transformation through more than relief alone. HealthBridge Africa is more service-focused and is based on mobile clinics and direct provision of health. Even though that is extremely compelling, I was more drawn to the Green Earth Alliance's holistic vision of unifying education, advocacy, and sustainability to create a sustainable model of African communities. I believe that approaching a project with the Green Earth Alliance provides me with the potential to marry my computer science with meaningful environmental work.
   
 ## History of the Organization
 Green Earth Alliance (GEA) was founded in 2009 in Cape Town by environmental scientists, community activists, and educators who were passionate about tackling climate change and biodiversity loss. It started off as a small grassroots movement with tree planting and education campaigns, but over the years it has grown to support more than 150 projects across Africa and even work with international partners. The organization brings together thousands of volunteers every year to restore ecosystems and promote sustainability.

@@ -232,7 +232,7 @@ css
 
 ## Screenshots
 
-<img width="1903" height="899" alt="Screenshot 2025-09-29 171821" src="https://github.com/user-attachments/assets/3cb5c5d3-1777-459c-83db-dde5ff3891c1" />
+
 
 
 

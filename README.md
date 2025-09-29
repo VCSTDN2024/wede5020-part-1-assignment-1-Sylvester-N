@@ -232,9 +232,16 @@ css
 
 ## Screenshots
 
-
-
-
+<img width="1897" height="946" alt="Screenshot 2025-09-29 171349" src="https://github.com/user-attachments/assets/6cebc4fa-5223-43a0-a1d2-c4de1ef620cc" />
+<img width="1903" height="904" alt="Screenshot 2025-09-29 171407" src="https://github.com/user-attachments/assets/4a28037e-e540-4230-95e2-2b5c934b3e2d" />
+<img width="1873" height="949" alt="Screenshot 2025-09-29 171424" src="https://github.com/user-attachments/assets/807d649c-2800-498f-b181-c02387a9108e" />
+<img width="1876" height="947" alt="Screenshot 2025-09-29 171508" src="https://github.com/user-attachments/assets/d6a3de9e-7cdd-4263-a14a-f90268f358fc" />
+<img width="1897" height="960" alt="Screenshot 2025-09-29 171737" src="https://github.com/user-attachments/assets/927671d2-31ba-4866-b1e3-7a60ba6e52ad" />
+<img width="1886" height="957" alt="Screenshot 2025-09-29 171803" src="https://github.com/user-attachments/assets/574d92b1-bf4d-4d9c-b061-84a6d342942e" />
+<img width="1903" height="899" alt="Screenshot 2025-09-29 171821" src="https://github.com/user-attachments/assets/99274a7a-5be4-455d-8024-6104ccddfe1c" />
+<img width="1909" height="947" alt="Screenshot 2025-09-29 171900" src="https://github.com/user-attachments/assets/be16aa5e-ea6b-479e-b3d2-62f5f583482f" />
+<img width="1918" height="956" alt="Screenshot 2025-09-29 171918" src="https://github.com/user-attachments/assets/35b1b39b-39b7-46f0-a07a-077a36956a0d" />
+<img width="1907" height="954" alt="Screenshot 2025-09-29 171935" src="https://github.com/user-attachments/assets/69a82999-fe96-44db-b1fa-d596b9a3c76e" />
 
 ---
 

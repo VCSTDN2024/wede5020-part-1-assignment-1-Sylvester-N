@@ -264,9 +264,9 @@ Figure 8:Declaration
 ## Proposal 2 of 2
 
 **Name of the Website**
-Organization Name: HealthBridge Africa
-Website Name: HealthBridge Initiative
-Domain Name: www.healthbridgeafrica.org
+* Organization Name: HealthBridge Africa
+* Website Name: HealthBridge Initiative
+* Domain Name: www.healthbridgeafrica.org
 
 **History of the Organization** 
 health Bridge Africa was established in 2015 by a coalition of African health professionals, social workers, and community activists responding to widespread health inequalities in rural and peri-urban areas. The founders recognized the urgent need for accessible primary healthcare, mental health services, and health education.
@@ -275,14 +275,14 @@ Its core philosophy is that everyone deserves access to quality healthcare — r
 
 **Goals and Objectives**
  **Goals:**
-•	To increase access to healthcare in disadvantaged African communities.
-•	To raise awareness on preventable diseases through education.
-•	To reduce stigma surrounding mental health.
+*	To increase access to healthcare in disadvantaged African communities.
+*	To raise awareness on preventable diseases through education.
+*	To reduce stigma surrounding mental health.
  **Objectives:**
-•	Deploy twenty-five mobile health clinics across East and Southern Africa by 2026.
-•	Train 1,000 community health workers by 2027.
-•	Reach one million people with health education campaigns by 2030.
-•	Launch free telehealth consultations in ten languages by 2026.
+*	Deploy twenty-five mobile health clinics across East and Southern Africa by 2026.
+*	Train 1,000 community health workers by 2027.
+*	Reach one million people with health education campaigns by 2030.
+*	Launch free telehealth consultations in ten languages by 2026.
 
 
 

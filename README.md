@@ -3,7 +3,7 @@
 **Github Link:**
 https://github.com/VCSTDN2024/wede5020-part-1-assignment-1-Sylvester-N.git 
 
-* **Website Name and Domain**
+### Website Name and Domain
 *	Name: Green Earth Alliance
 *	Domain: www.greenearthalliance.org
 

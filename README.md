@@ -343,7 +343,7 @@ Figure 9: Healthbridge Sitemap
  
 Figure 10: Healthbridge wireframe
 
-##Budget Estimate
+## Budget Estimate
 
 Category	Estimated Cost (ZAR)
 Domain and Hosting (2 years)	R2,500

@@ -61,9 +61,6 @@ Working in Visual Studio Code made the process smoother because of its extension
 ## Logo Design
 The logo design of Green Earth Alliance reflects its mission of sustainability, community, and growth.
 
- 
-Figure 1:Logo
-
 This simple but meaningful logo design ensures that the identity of the organisation is clear: protecting the Earth through alliances and sustainability.
 
 ## Sitemap
@@ -76,21 +73,7 @@ Below is the structure of the Green Earth Alliance website:
 ## Wireframe 
 The wireframe shows the basic structure of each page before adding design and content. This helped me plan where elements like navigation, content, and footers go.
 
- 
-Figure 2: Wireframe
-
 This wireframe guided me in organising the layout to make sure everything is accessible and easy for users to find. Later, styling was applied to make it visually appealing and responsive for mobile devices.
- 
-Figure 3:Homepage
- 
-Figure 4:About Us
- 
-Figure 5: Contact Us
- 
-Figure 6:Enquiry Page
- 
-Figure 7:Project Page
-
 
 ## Budget Estimate
 
@@ -324,10 +307,18 @@ The script.js file handles all client-side logic for validation, interactivity, 
 
 
 ## Updated  website images/screenshots
- 
+ <img width="1912" height="893" alt="Screenshot 2025-11-03 185003" src="https://github.com/user-attachments/assets/644e0631-bb27-4c4c-9a19-fe14d12cb207" />
+<img width="1918" height="951" alt="Screenshot 2025-11-03 184947" src="https://github.com/user-attachments/assets/7d3647b6-8ed9-46af-ba1f-b795e95b2b6c" />
+<img width="1916" height="949" alt="Screenshot 2025-11-03 184923" src="https://github.com/user-attachments/assets/f3633c8a-c658-459c-a442-29e84a4fed4b" />
+<img width="1911" height="951" alt="Screenshot 2025-11-03 184909" src="https://github.com/user-attachments/assets/6d3b9086-874f-47d6-9d13-de340340c6a7" />
+<img width="1919" height="950" alt="Screenshot 2025-11-03 184854" src="https://github.com/user-attachments/assets/1083878c-1082-439c-9695-7ec9366e9df3" />
+<img width="1912" height="952" alt="Screenshot 2025-11-03 184838" src="https://github.com/user-attachments/assets/a4082759-29b7-488c-8fe8-2bcb64be781c" />
+<img width="1901" height="889" alt="Screenshot 2025-11-03 184820" src="https://github.com/user-attachments/assets/1b688b65-20ce-4cf4-b5b7-44c81112030e" />
+<img width="1904" height="951" alt="Screenshot 2025-11-03 184758" src="https://github.com/user-attachments/assets/1a953336-8412-4414-85be-22a455c7286b" />
 
 
- References
+
+ ## References
 *	Greenpeace International. (2023). Environmental Campaigning Best Practices. Retrieved from www.greenpeace.org 
 *	Worldwide Fund for Nature (WWF). (2024). Community Conservation Models. Retrieved from www.wwf.org 
 *	UNEP Africa Office. (2022). Sustainable Development in African Communities. United Nations Environment Programme.
@@ -337,6 +328,7 @@ The script.js file handles all client-side logic for validation, interactivity, 
 
 
 Figure 8:Declaration
+<img width="890" height="573" alt="Screenshot 2025-11-03 192315" src="https://github.com/user-attachments/assets/a8903e3b-d77b-432c-a245-c4d885eb2f54" />
 
 
 ## Proposal 2 of 2
@@ -442,3 +434,5 @@ Total Estimated Budget	R105,000
 
  
 Figure 11:Declaration Form
+<img width="890" height="573" alt="Screenshot 2025-11-03 192315" src="https://github.com/user-attachments/assets/0665b38e-4c9f-4707-838e-b4eacaacff17" />
+

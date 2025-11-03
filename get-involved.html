@@ -4,79 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Earth Alliance - Enquiry</title>
-    <link rel="Stylesheet" href="get-involved.css">
+    <meta name="description" content="Get involved with Green Earth Alliance! Submit an enquiry for partnership, volunteer opportunities, or make a donation to support our environmental projects.">
+    <link rel="Stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="Images/Earth Green Alliance.png">
+    <script defer src="script.js"></script> 
     </head>
 <body>
+    
     <nav class="navbar">
-        <ul>
-        <li><a href="about.html" target="_blank">About Us</a></li>
-        <li><a href="contact.html" target="_blank">Contact Us</a></li>
-        <li><a href="get-involved.html" target="_blank">Enquiry</a></li>
-        <li><a href="projects.html" target="_blank">Projects</a></li>
-        <li><a href="index.html" target="_blank">Home</a></li>
-        </ul>
+        <div class="container">
+             <div class="branding">
+                <img src="Images/Earth Green Alliance.png" height="50" width="auto" alt="Green Earth Alliance Logo">
+                <span class="logo-name">Green Earth Alliance</span> </div>
+            <ul class="nav-links">
+                 <li><a href="index.html">Home</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="get-involved.html">Enquiry</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </div>
       </nav>
      
     <header>
-        <img src="Images/Earth Green Alliance.png", height="110", width="150", align="right">
-        <h1>Get Involved</h1>
+        <div class="container">
+            <h1>Get Involved</h1>
+        </div>
     </header>
-    <section>
-        <h2 align="left">Enquiries & Partnerships</h2>
-        <p align="left">Green Earth Alliance works closely with schools, communities, and organizations across sub-Saharan Africa. If you would like to collaborate on a project, support our mission, or request more information, please reach out through the form below:</p>
 
+    <div class="container">
+        <section>
+            <h2>Enquiries & Partnerships</h2>
+            <p>Green Earth Alliance works closely with schools, communities, and organizations across sub-Saharan Africa. If you would like to collaborate on a project, support our mission, or request more information, please reach out through the form below:</p>
+            
+            <p id="enquiry-error" class="error-message"></p>
+
+            <form id="enquiryForm" action="/submit-enquiry" method="POST">
                 <p>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                    <label for="enquiry_name">Name:</label>
+                    <input type="text" id="enquiry_name" name="name" required minlength="3">
                 </p>
 
                 <p>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                    <label for="enquiry_email">Email:</label>
+                    <input type="email" id="enquiry_email" name="email" required>
                 </p>
 
                 <p>
-                <label for="contact">Contact:</label>
-                <input type="contact" id="contact" name="contact" required>
+                    <label for="enquiry_contact">Contact:</label>
+                    <input type="tel" id="enquiry_contact" name="contact" required pattern="[0-9+ ]{10,20}" title="Phone number should be 10-20 digits/symbols long, e.g., +27 12 345 6789">
+                </p>
+                
+                <p>
+                    <label for="enquiry_type">Enquiry Type:</label>
+                    <select id="enquiry_type" name="enquiry_type" required>
+                        <option value="">-- Select an option --</option>
+                        <option value="volunteer">Volunteer Opportunity</option>
+                        <option value="sponsor">Sponsorship/Donation</option>
+                        <option value="project_collaboration">Project Collaboration</option>
+                        <option value="general">General Information</option>
+                    </select>
                 </p>
 
                 <p>
-                <button type="submit">Enquiry</button>
+                    <label for="enquiry_message">Message:</label>
+                    <textarea id="enquiry_message" name="message" rows="5" required minlength="20"></textarea>
                 </p>
 
                 <p>
-                <label for="message",>Message:</label>
-                <textarea id="message" name="message" rows="1" required></textarea>
+                    <button type="submit" class="button">Send Message</button>
                 </p>
+            </form>
 
-                <p>
-                <button type="submit">Send Message</button>
-                </p>
-
-
-        <h2>Donate</h2>
-        
-        <p>
-            Your support helps Green Earth Alliance plant indigenous trees, restore degraded land, and empower communities through climate education. 
-            Every donation, no matter the size, brings us closer to a greener, healthier future.
-        </p>
-
-           
+            <h2>Donate</h2>
+            
             <p>
-            <label for="Donation Amount:">Donate:</label>
-            <textarea id="Donation" name="Donation" rows="1" required></textarea>
-            </p>     
+                Your support helps Green Earth Alliance plant indigenous trees, restore degraded land, and empower communities through climate education. Every donation, no matter the size, brings us closer to a greener, healthier future.
+            </p>
 
-        <button>Donate Now</button>
-    </section>
+            <form id="donationForm" action="/process-donation" method="POST">
+                <p>
+                    <label for="donation_amount">Donation Amount (ZAR):</label>
+                    <input type="number" id="donation_amount" name="Donation" required min="1">
+                </p>     
+
+                <button type="submit" class="button">Donate Now</button>
+            </form>
+        </section>
+    </div>
 
     <footer>
-    <h2>Earth Green Alliance Socials:</h2>
-        
-        <a href="https://instagram.com" target="_blank"><img src="Images/IG.jpg", height="25", width="25"></a>
-        <a href="https://facebook.com" target="_blank"><img src="Images/FB.jpg", height="25", width="25"></a>
-        <a href="https://twitter.com" target="_blank"><img src="Images/X.jpg", height="25", width="25"></a>
+        <div class="container">
+            <h2>Earth Green Alliance Socials:</h2>
+            
+            <a href="https://instagram.com" target="_blank"><img src="Images/IG.jpg" height="25" width="25" alt="Instagram Icon"></a>
+            <a href="https://facebook.com" target="_blank"><img src="Images/FB.jpg" height="25" width="25" alt="Facebook Icon"></a>
+            <a href="https://twitter.com" target="_blank"><img src="Images/X.jpg" height="25" width="25" alt="Twitter X Icon"></a>
+        </div>
     </footer>
 </body>
 </html>

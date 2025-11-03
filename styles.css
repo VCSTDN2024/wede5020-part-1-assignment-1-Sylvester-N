@@ -1,0 +1,453 @@
+:root {
+    --gea-green: rgb(18, 120, 23); 
+    --gea-green-hover: rgb(15, 96, 19); /* Slightly darker for hover effect */
+    --text-dark: #333; /* Dark text for professional contrast */
+    --background-light: #fff; /* Pure white background - aesthetic */
+    --content-max-width: 1200px;
+    --section-padding: 60px;
+    --header-height: 80px; /* Standard height for nav, header, and footer */
+    --logo-height: 50px;
+    /* --- NEW ADDED VARIABLES FOR RESPONSIVE DESIGN --- */
+    --font-size-base-rem: 1.125rem; /* 18px standard for readability */
+    --spacing-md: 2rem;
+    --spacing-sm: 1rem;
+    --spacing-xs: 0.5rem;
+}
+
+/* Base style additions for typography and box-sizing reset */
+* {
+    box-sizing: border-box; /* Fundamental for responsive design */
+}
+
+body {
+    background-color: var(--background-light);
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; 
+    color: var(--text-dark);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-size: var(--font-size-base-rem); /* Changed to use rem variable */
+}
+
+/* Central Content Container for structure */
+.container {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: 0 40px; 
+}
+
+/* --- Typography --- */
+h1, h2, h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--text-dark);
+    margin-top: 0;
+    font-weight: 600; 
+}
+
+h1 {
+    font-size: 2.2rem;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: var(--text-dark);
+}
+
+.tagline {
+    color: var(--gea-green);
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin-top: 20px;
+    padding-bottom: var(--section-padding);
+}
+
+section p ul {
+    list-style: none;
+    padding-left: 0;
+}
+section p ul li {
+    font-style: italic;
+    color: var(--gea-green);
+    padding-left: 20px;
+    position: relative;
+}
+section p ul li::before {
+    content: "•";
+    color: var(--gea-green);
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+/* --- Navigation Bar (Logo Left, Nav Right) --- */
+.navbar {
+    background-color: var(--gea-green); 
+    border-bottom: 1px solid var(--gea-green-hover); 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    padding: 0 40px;
+}
+
+.navbar .branding {
+    display: flex;
+    align-items: center;
+    order: 1; /* Branding on the LEFT */
+}
+
+.navbar .branding img {
+    height: var(--logo-height);
+    width: auto;
+    object-fit: contain;
+}
+
+.navbar .logo-name { /* Style for the Alliance name next to the logo */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 10px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    order: 2; /* Navigation on the RIGHT */
+}
+
+.navbar li {
+    margin-left: 30px; 
+    margin-right: 0;
+}
+
+.navbar a {
+    color: white; /* White text for contrast on green background */
+    text-decoration: none;
+    padding: 0;
+    display: block;
+    font-size: 1.0rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    line-height: var(--header-height);
+}
+
+.navbar a:hover {
+    color: var(--background-light); /* Hover to white/light color */
+}
+
+
+header {
+    background-color: var(--background-light); 
+    height: var(--header-height); 
+    padding: 0; 
+    display: flex; 
+    align-items: center; /* Vertically center content */
+    text-align: center; 
+}
+header h1, header p {
+    color: var(--text-dark); 
+}
+header .container {
+   
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* --- Project Page Image Styling & Lightbox Gallery Item --- */
+.project-images {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    gap: 20px; /* Space between images */
+    margin-bottom: 30px;
+    flex-wrap: wrap; /* Allow images to wrap on smaller screens */
+}
+
+.gallery-item {
+    display: block; /* Ensure the link wrapper acts like a block container */
+    cursor: pointer; /* Indicates the item is clickable */
+    text-decoration: none;
+    /* Maintain the size constraints for the image wrapper */
+    width: 450px; 
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 8px; /* Slight rounded corners for a professional look */
+    overflow: hidden; /* Important for border-radius on image */
+    transition: transform 0.2s ease; /* Animation/Transition for hover */
+}
+.gallery-item:hover {
+    transform: scale(1.03); /* Subtle zoom on hover */
+}
+
+.project-images img {
+    /* Standardise image size */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    max-width: 100%; /* Ensure responsiveness */
+    border-radius: 8px; /* Applied to the image itself */
+}
+
+
+/* --- LIGHTBOX STYLES (New Requirement) --- */
+.lightbox-overlay {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    z-index: 2000; /* High z-index to cover everything */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.9); /* Dark overlay */
+    transition: opacity 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.lightbox-content {
+    position: relative;
+    margin: 5% auto; /* 5% margin from top and centered horizontally */
+    padding: 20px;
+    width: 90%; 
+    max-width: 1000px; /* Max size for the lightbox image area */
+    text-align: center;
+}
+
+.lightbox-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 85vh; /* Limit height to viewport for large images */
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1; /* Light color for visibility on dark background */
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 2001; 
+}
+
+.lightbox-close:hover,
+.lightbox-close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* --- Forms and Buttons (Retained from previous step) --- */
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Added transition for smooth feedback */
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: var(--gea-green); 
+    box-shadow: 0 0 5px rgba(18, 120, 23, 0.5); /* Focus effect */
+    outline: none;
+}
+
+/* CSS for Form Validation Feedback */
+input:invalid:not(:placeholder-shown), textarea:invalid:not(:placeholder-shown), select:invalid:not(:placeholder-shown) {
+    border-color: red;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid red;
+    background-color: #ffeaea;
+    border-radius: 4px;
+    display: none; /* Controlled by JavaScript */
+}
+
+
+button, .button { /* Updated to include .button class consistency */
+    background-color: var(--gea-green); 
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.0rem;
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Added transform for button animation */
+    margin-top: 15px;
+    display: inline-block; /* Ensure it respects transform/padding */
+}
+
+button:hover, .button:hover {
+    background-color: var(--gea-green-hover);
+    transform: translateY(-2px); /* Button lift animation (2.1 Animations and Transitions) */
+}
+
+
+/* --- Contact Page Specific Layout (Retained from previous step) --- */
+.contact-layout {
+    display: flex;
+    min-height: 800px; 
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    border: 1px solid #eee; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.contact-details-scrollable {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+    background-color: #f7f7f7; 
+}
+
+.contact-form-fixed {
+    width: 400px;
+    padding: 40px;
+    background-color: var(--background-light); 
+    position: sticky;
+    top: calc(var(--header-height) + 1px);
+    align-self: flex-start;
+    border-left: 1px solid #eee;
+    height: fit-content;
+}
+
+/* --- Footer (RETAINS GREEN BACKGROUND & NEW HEIGHT) --- */
+footer {
+    background-color: var(--gea-green); /* RETAINED: GEA Green Background */
+    color: white;
+    padding: 0; /* Removed vertical padding */
+    text-align: center;
+    clear: both;
+    height: var(--header-height); /* Set height to match navbar (80px) */
+    display: flex; /* Enable Flexbox */
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+}
+
+footer h2 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0; /* Adjusted for vertical centering */
+}
+
+footer a img {
+    filter: invert(100%); /* Invert social icons to white */
+    height: 25px;
+    width: 25px;
+    margin: 0 10px;
+}
+
+/* --- Additional Animation/Transition --- */
+/* Simple fade-in animation for main logo on home page */
+.logo-hero-image {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-out 0.5s forwards; /* 1.5s duration, 0.5s delay */
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+/* --- Media Queries (Responsiveness) --- */
+@media screen and (max-width: 900px) {
+    /* Mobile Navigation */
+    .navbar .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .navbar .branding {
+        order: 1; 
+        padding-top: 10px;
+    }
+    .navbar .logo-name {
+        margin-left: 5px; /* Reduce spacing on mobile */
+    }
+    .navbar .nav-links {
+        order: 2; 
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .navbar li {
+        margin: 0 10px;
+    }
+    .navbar a {
+        line-height: 1.5;
+        padding: 5px 0;
+    }
+    
+    /* Mobile Header: Override fixed height for wrapping content */
+    header {
+        height: auto; 
+        padding: 20px 0; /* Add back some padding for spacing */
+        display: block; /* Revert to block layout to simplify */
+    }
+    /* Footer on Mobile: Revert to padding since height/flexbox can cause issues with content wrapping */
+    footer {
+        height: auto;
+        padding: 20px 0; 
+        display: block;
+    }
+    footer h2 {
+        margin-bottom: 15px;
+    }
+
+    /* Mobile Contact Layout */
+    .contact-layout {
+        flex-direction: column;
+        min-height: auto;
+    }
+    .contact-form-fixed,
+    .contact-details-scrollable {
+        width: auto;
+        position: static;
+        top: auto;
+        align-self: auto;
+        border-left: none;
+    }
+    
+    /* Mobile Project Images */
+    .project-images {
+        flex-direction: column; /* Stack images vertically on small screens */
+        align-items: center;
+    }
+    .gallery-item {
+        width: 100%; /* Take full width of container */
+        height: auto;
+        max-height: 250px; /* Cap the max height on mobile */
+    }
+}
